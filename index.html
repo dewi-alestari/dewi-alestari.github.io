@@ -1,78 +1,83 @@
+<!-- Design inspired from https://bootstrapmade.com/ template -->
+
 <!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Wisuda 2025 — Personal Site</title>
-  <meta name="description" content="Cerita wisuda dan perjalanan kuliah">
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <header class="site-header">
-    <nav class="nav">
-      <a class="brand" href="./">🎓 Wisuda 2025</a>
-      <div class="links">
-        <a href="./">Beranda</a>
-        <a href="about.html">Tentang</a>
-        <a href="#galeri">Galeri</a>
-        <a href="#kontak">Kontak</a>
-      </div>
-    </nav>
-  </header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dewi Astutiningtias Lestari</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link href="assets/vendor/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
 
-  <main>
-    <section class="hero">
-      <h1>Resmi Lulus! 🌟</h1>
-      <p class="lead">
-        Terima kasih untuk keluarga, teman, dan para dosen atas dukungannya.
-        Ini adalah rangkuman momen wisuda dan perjalanan singkat selama kuliah.
-      </p>
-      <a class="btn" href="#galeri">Lihat Galeri</a>
-    </section>
-
-    <section class="timeline">
-      <h2>Perjalanan Singkat</h2>
-      <ul class="steps">
-        <li><span class="step-title">2019</span> — Mulai perkuliahan dan ikut organisasi kampus</li>
-        <li><span class="step-title">2023</span> — Penelitian topik AI untuk deteksi glaukoma</li>
-        <li><span class="step-title">2025</span> — Sidang & Wisuda 🎓</li>
+  <!-- =======================================================
+  Design and Code Inspired from:
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    
+  </head>
+  <body class="main-content d-flex justify-content-center align-items-center vh-100" style="background-image: url('assets/img/latar_farid.png');">
+    <div class="dropdown">
+      <!-- Button with correct data-bs-toggle for Bootstrap dropdown -->
+      <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <h2>☰</h2>
+      </button>
+      <!-- Dropdown menu with items -->
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="index.html">Home</a></li>
+        <li><a class="dropdown-item" href="about.html">About</a></li>
+        <li><a class="dropdown-item" href="resume.html">Resume</a></li>
+        <li><a class="dropdown-item" href="portofolio.html">Portfolio</a></li>
+        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
       </ul>
-    </section>
+    </div>
 
-    <section id="galeri" class="gallery">
-      <h2>Galeri Wisuda</h2>
-      <div class="grid">
-        <!-- Ganti src dengan file foto kamu di assets/img/ -->
-        <figure>
-          <img src="assets/img/wisuda-1.jpg" alt="Foto wisuda 1" />
-          <figcaption>Dengan keluarga</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/img/wisuda-2.jpg" alt="Foto wisuda 2" />
-          <figcaption>Teman seangkatan</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/img/wisuda-3.jpg" alt="Foto wisuda 3" />
-          <figcaption>Di kampus</figcaption>
-        </figure>
+    <header id="home">
+      <nav class="navbar main-menu">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="col-12 text-lg-center">
+              <h1><span class="highlighted">Dewi</span> Astutiningtias Lestari </h1>
+            </div>
+            <div class="col-12 gap-5">
+              <ul class="col-12 list-unstyled d-flex justify-content-center">
+                <li>
+                  <a href="index.html" class="text-decoration-none"><h4 class="active">Home</h4></a>
+                </li>
+                <li>
+                  <a href="about.html" class="text-decoration-none"><h4 class="active">About</h4></a>
+                </li>
+                <li>
+                  <a href="resume.html" class="text-decoration-none"><h4 class="active">Resume</h4></a>
+                </li>
+                <li>
+                  <a href="portofolio.html" class="text-decoration-none"><h4 class="active">Portofolio</h4></a>
+                </li>
+                <li>
+                  <a href="contact.html" class="text-decoration-none"><h4 class="active">Contact</h4></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="medsos">
+        <a href="https://instagram.com/dewi.alstr" class="fa fa-linkedin logo_instagram"></a>
+        <a href="https://www.linkedin.com/in/dewiastutiningtiaslestari" class="fa fa-instagram logo_linkedin"></a>
+        <span
+          ><a href="CV_Farid Johor Abdullah Ritonga.pdf" download><h4>Download CV</h4></a></span
+        >
       </div>
-      <p class="hint">Masukkan fotomu ke <code>assets/img/</code> dan ganti nama file sesuai di atas.</p>
-    </section>
-
-    <section id="kontak" class="contact">
-      <h2>Kontak</h2>
-      <p>Ingin say hi atau kolaborasi? Kirim email ke <a href="mailto:emailkamu@example.com">emailkamu@example.com</a>.</p>
-      <div class="socials">
-        <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <small>© 2025 — Dibuat dengan GitHub Pages</small>
-  </footer>
-
-  <script src="assets/js/main.js"></script>
-</body>
+    </header>
+    <script src="assets/vendor/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/"></script>
+  </body>
 </html>
