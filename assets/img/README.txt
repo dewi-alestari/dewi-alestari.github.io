@@ -1,0 +1,1 @@
+Tempatkan foto kamu di folder ini. Contoh nama file: wisuda-1.jpg, wisuda-2.jpg
